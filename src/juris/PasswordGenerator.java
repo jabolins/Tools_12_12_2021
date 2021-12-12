@@ -10,8 +10,16 @@ import java.util.Random;
  * output password (String)
  */
 public class PasswordGenerator {
+    /**
+     * characters for passwrd
+     */
     private final static String CHARACTERS = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz!~@#$&*()_+-/*";
 
+    /**
+     *
+     * @param passwordLength - length of password what need to generate
+     * @return password (String)
+     */
     public static String generate(int passwordLength) {
         Random rnd = new Random();
         StringBuilder stringBuilder = new StringBuilder();
