@@ -29,5 +29,6 @@ public class PasswordGenerator {
             stringBuilder.append(c);
         }
         return stringBuilder.toString();
+
     }
 }
